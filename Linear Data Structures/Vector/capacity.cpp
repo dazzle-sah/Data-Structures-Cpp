@@ -7,3 +7,22 @@
 // empty() – Returns whether the container is empty.
 // shrink_to_fit() – Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.
 // reserve() – Requests that the vector capacity be at least enough to contain n elements.
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+	vector<int> g1;
+
+	for (int i = 1; i <= 5; i++)
+		g1.push_back(i);
+
+	cout << "Size : " << g1.size();
+	cout << "\nCapacity : " << g1.capacity();
+	cout << "\nMax_Size : " << g1.max_size();
+
+	// resizes the vector size to 4
+	g1.resize(4);
