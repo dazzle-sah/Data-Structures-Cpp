@@ -1,0 +1,9 @@
+* a Linked List is a linear data structure
+* inked list elements are not stored at a contiguous location
+* the elements are linked using pointers
+* series of connected nodes
+* each node stores the data and the address of the next node.
+
+Why Linked List over Arrays?
+* The size of the arrays is fixed
+* Insertion / Deletion of an element in an array of elements is expensive
