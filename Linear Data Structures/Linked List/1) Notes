@@ -13,3 +13,15 @@ Why Linked List over Arrays?
 Advantages of Linked Lists over arrays:
 * Dynamic Array
 * Ease of Insertion/Deletion
+
+Drawbacks of Linked Lists: 
+* It takes a lot of time in traversing and changing the pointers.
+* Reverse traversing is not possible in singly linked lists.
+* It will be confusing when we work with pointers.
+* Direct access to an element is not possible in a linked list 
+    (as in an array by index.)
+* Searching for an element is costly and requires O(n) time complexity.
+* Sorting of linked lists is very complex and costly.
+* Random access is not allowed.
+* Extra memory space for a pointer is required with each element of the list. 
+* Not cache-friendly
