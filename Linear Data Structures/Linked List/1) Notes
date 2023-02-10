@@ -1,3 +1,5 @@
+
+Basics
 * a Linked List is a linear data structure
 * inked list elements are not stored at a contiguous location
 * the elements are linked using pointers
@@ -7,3 +9,7 @@
 Why Linked List over Arrays?
 * The size of the arrays is fixed
 * Insertion / Deletion of an element in an array of elements is expensive
+
+Advantages of Linked Lists over arrays:
+* Dynamic Array
+* Ease of Insertion/Deletion
